@@ -4,7 +4,7 @@ public class AccountTest{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        Account myAccount = new Account(); //Cria um objeto Account
+        Account myAccount = new Account(null); //Cria um objeto Account. Sempre deve-se dar um valor a variável.
 
         //Exibe o nome inicial = null
         System.out.printf("O nome inicial é: %s%n%n", myAccount.getName());
