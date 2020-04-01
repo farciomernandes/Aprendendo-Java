@@ -8,7 +8,7 @@ public class MinhaLoja{
 
         LojaM compra1 = new LojaM();
         //LojaM compra2 = new LojaM();
-        System.out.print("Digite o nome do produto que deseja adquiri: ");
+        System.out.print("Digite o nome do produto que deseja adquirir: ");
         String produto = input.next();
         System.out.print("Digite o valor do produto que você vai adquirir: ");
         double valor = input.nextDouble();
